@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.38">
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\controller\App.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\controller\ItemMenu.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\controller\MainMenu.java">
+<error line="38" column="5" severity="warning" message="&apos;MemberManager&apos; has incorrect indentation level 4, expected level should be 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\controller\MemberMenu.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Contract.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\ContractManager.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Game.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Item.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\ItemManager.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\LoanedObserver.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\LoanedSubscriber.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Member.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\MemberManager.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\NameSearchStrategy.java">
+<error line="18" column="3" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Other.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\PriceSearchStrategy.java">
+<error line="18" column="3" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\SearchStrategy.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Sport.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Time.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Tools.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Toy.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\domain\Vehicle.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\model\persistence\FileManager.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\view\ContractChoices.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\view\ItemChoices.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\view\MemberChoices.java">
+</file>
+<file name="C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java\view\MenuChoices.java">
+</file>
+</checkstyle>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.spotbugs" time="0" tests="27" errors="2" name="findbugs">
+<testcase time="0" name="model/domain/Item.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/ItemManager.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/ItemChoices.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Tools.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/persistence/FileManager.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/LoanedObserver.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/MenuChoices.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/NameSearchStrategy.java" classname="FindBugs Issues">
+<failure message="issues" ><![CDATA[lines: 9-31 
+getNameList(MemberManager) may expose internal representation by returning 
+  NameSearchStrategy.searchNameList 
+May expose internal representation by returning reference to mutable object 
+Returning a reference to a mutable object value stored in one of the 
+  object's fields exposes the internal representation of the object. If 
+  instances are accessed by untrusted code, and unchecked changes to the 
+  mutable object would compromise security or other important properties, 
+  you will need to do something different. Returning a new copy of the 
+  object is better approach in many situations.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="model/domain/SearchStrategy.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Sport.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/ContractChoices.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/App.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/MemberMenu.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Contract.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/MainMenu.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/PriceSearchStrategy.java" classname="FindBugs Issues">
+<failure message="issues" ><![CDATA[lines: 9-32 
+getPriceList(MemberManager) may expose internal representation by returning 
+  PriceSearchStrategy.itemPrices 
+May expose internal representation by returning reference to mutable object 
+Returning a reference to a mutable object value stored in one of the 
+  object's fields exposes the internal representation of the object. If 
+  instances are accessed by untrusted code, and unchecked changes to the 
+  mutable object would compromise security or other important properties, 
+  you will need to do something different. Returning a new copy of the 
+  object is better approach in many situations.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="model/domain/Other.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/MemberManager.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/LoanedSubscriber.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/ContractManager.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Member.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Time.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/ItemMenu.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Game.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Toy.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Vehicle.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/MemberChoices.java" classname="FindBugs Issues">
+</testcase></testsuite>

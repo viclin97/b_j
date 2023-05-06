@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.checkstyle" time="0" tests="27" errors="3" name="checkstyle">
+<testcase time="0" name="controller/App.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/ItemMenu.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/MainMenu.java" classname="CheckStyle Issues">
+<failure message="issues" ><![CDATA[line: 38 column: column:5 
+'MemberManager' has incorrect indentation level 4, expected level should be 
+  6.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="controller/MemberMenu.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Contract.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/ContractManager.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Game.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Item.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/ItemManager.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/LoanedObserver.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/LoanedSubscriber.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Member.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/MemberManager.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/NameSearchStrategy.java" classname="CheckStyle Issues">
+<failure message="issues" ><![CDATA[line: 18 column: column:3 
+'METHOD_DEF' should be separated from previous statement.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="model/domain/Other.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/PriceSearchStrategy.java" classname="CheckStyle Issues">
+<failure message="issues" ><![CDATA[line: 18 column: column:3 
+'METHOD_DEF' should be separated from previous statement.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="model/domain/SearchStrategy.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Sport.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Time.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Tools.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Toy.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Vehicle.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/persistence/FileManager.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/ContractChoices.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/ItemChoices.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/MemberChoices.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/MenuChoices.java" classname="CheckStyle Issues">
+</testcase></testsuite>

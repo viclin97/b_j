@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.1" sequence="0" timestamp="1683389056220" analysisTimestamp="1683389056296" release="unspecified">
+  <Project projectName="app (spotbugsMain)">
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\controller\App.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\controller\ItemMenu$1.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\controller\ItemMenu.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\controller\MainMenu$1.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\controller\MainMenu.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\controller\MemberMenu$1.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\controller\MemberMenu.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Contract.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\ContractManager.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Game.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Item.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\ItemManager.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\LoanedObserver.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\LoanedSubscriber.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Member.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\MemberManager.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\NameSearchStrategy.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Other.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\PriceSearchStrategy.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\SearchStrategy.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Sport.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Time.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Tools.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Toy.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\domain\Vehicle.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\model\persistence\FileManager.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\ContractChoices.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\ItemChoices$ItemChoiceEvent.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\ItemChoices.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\MemberChoices$MemberModifyEvent.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\MemberChoices.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\MenuChoices$ItemMenuEvent.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\MenuChoices$MainMenuEvent.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\MenuChoices$MemberMenuEvent.class</Jar>
+    <Jar>C:\Users\lindg\visual studio\1dv607\a2\app\build\classes\java\main\view\MenuChoices.class</Jar>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\com.github.spotbugs\spotbugs-annotations\4.7.2\3546c0a24a083e7fdfdf5986bef76b19c477a264\spotbugs-annotations-4.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\30.1.1-jre\87e0fd1df874ea3cbe577702fe6f17068b790fd8\guava-30.1.1-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.8.0\6b83e4a33220272c3a08991498ba9dc09519f190\checker-qual-3.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.5.1\562d366678b89ce5d6b6b82c1a073880341e3fba\error_prone_annotations-2.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\lindg\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\lindg\visual studio\1dv607\a2\app\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\lindg\visual studio\1dv607\a2\app\src\main\java</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="ac19309241795e85f651a5448f87c31f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>model.domain.NameSearchStrategy.getNameList(MemberManager) may expose internal representation by returning NameSearchStrategy.searchNameList</LongMessage>
+    <Class classname="model.domain.NameSearchStrategy" primary="true">
+      <SourceLine classname="model.domain.NameSearchStrategy" start="9" end="30" sourcefile="NameSearchStrategy.java" sourcepath="model/domain/NameSearchStrategy.java" relSourcepath="java\model\domain\NameSearchStrategy.java">
+        <Message>At NameSearchStrategy.java:[lines 9-30]</Message>
+      </SourceLine>
+      <Message>In class model.domain.NameSearchStrategy</Message>
+    </Class>
+    <Method classname="model.domain.NameSearchStrategy" name="getNameList" signature="(Lmodel/domain/MemberManager;)Ljava/util/ArrayList;" isStatic="false" primary="true">
+      <SourceLine classname="model.domain.NameSearchStrategy" start="19" end="24" startBytecode="0" endBytecode="153" sourcefile="NameSearchStrategy.java" sourcepath="model/domain/NameSearchStrategy.java" relSourcepath="java\model\domain\NameSearchStrategy.java"/>
+      <Message>In method model.domain.NameSearchStrategy.getNameList(MemberManager)</Message>
+    </Method>
+    <Field classname="model.domain.NameSearchStrategy" name="searchNameList" signature="Ljava/util/ArrayList;" isStatic="false" primary="true">
+      <SourceLine classname="model.domain.NameSearchStrategy" sourcefile="NameSearchStrategy.java" sourcepath="model/domain/NameSearchStrategy.java" relSourcepath="java\model\domain\NameSearchStrategy.java">
+        <Message>In NameSearchStrategy.java</Message>
+      </SourceLine>
+      <Message>Field model.domain.NameSearchStrategy.searchNameList</Message>
+    </Field>
+    <SourceLine classname="model.domain.NameSearchStrategy" primary="true" start="24" end="24" startBytecode="57" endBytecode="57" sourcefile="NameSearchStrategy.java" sourcepath="model/domain/NameSearchStrategy.java" relSourcepath="java\model\domain\NameSearchStrategy.java">
+      <Message>At NameSearchStrategy.java:[line 24]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="b3e64767ce80c3579c59a7188315c161" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>model.domain.PriceSearchStrategy.getPriceList(MemberManager) may expose internal representation by returning PriceSearchStrategy.itemPrices</LongMessage>
+    <Class classname="model.domain.PriceSearchStrategy" primary="true">
+      <SourceLine classname="model.domain.PriceSearchStrategy" start="9" end="31" sourcefile="PriceSearchStrategy.java" sourcepath="model/domain/PriceSearchStrategy.java" relSourcepath="java\model\domain\PriceSearchStrategy.java">
+        <Message>At PriceSearchStrategy.java:[lines 9-31]</Message>
+      </SourceLine>
+      <Message>In class model.domain.PriceSearchStrategy</Message>
+    </Class>
+    <Method classname="model.domain.PriceSearchStrategy" name="getPriceList" signature="(Lmodel/domain/MemberManager;)Ljava/util/ArrayList;" isStatic="false" primary="true">
+      <SourceLine classname="model.domain.PriceSearchStrategy" start="19" end="24" startBytecode="0" endBytecode="156" sourcefile="PriceSearchStrategy.java" sourcepath="model/domain/PriceSearchStrategy.java" relSourcepath="java\model\domain\PriceSearchStrategy.java"/>
+      <Message>In method model.domain.PriceSearchStrategy.getPriceList(MemberManager)</Message>
+    </Method>
+    <Field classname="model.domain.PriceSearchStrategy" name="itemPrices" signature="Ljava/util/ArrayList;" isStatic="false" primary="true">
+      <SourceLine classname="model.domain.PriceSearchStrategy" sourcefile="PriceSearchStrategy.java" sourcepath="model/domain/PriceSearchStrategy.java" relSourcepath="java\model\domain\PriceSearchStrategy.java">
+        <Message>In PriceSearchStrategy.java</Message>
+      </SourceLine>
+      <Message>Field model.domain.PriceSearchStrategy.itemPrices</Message>
+    </Field>
+    <SourceLine classname="model.domain.PriceSearchStrategy" primary="true" start="24" end="24" startBytecode="60" endBytecode="60" sourcefile="PriceSearchStrategy.java" sourcepath="model/domain/PriceSearchStrategy.java" relSourcepath="java\model\domain\PriceSearchStrategy.java">
+      <Message>At PriceSearchStrategy.java:[line 24]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugPattern type="EI_EXPOSE_REP" abbrev="EI" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by returning reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="EI">
+    <Description>Method returning array may expose internal representation</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 6 May 2023 18:04:16 +0200" total_classes="35" referenced_classes="79" total_bugs="2" total_size="1099" num_packages="4" java_version="17.0.4.1" vm_version="17.0.4.1+1" cpu_seconds="8.94" clock_seconds="3.50" peak_mbytes="223.12" alloc_mbytes="4080.00" gc_seconds="0.02" priority_2="2">
+    <FileStats path="controller/App.java" bugCount="0" size="17"/>
+    <FileStats path="controller/ItemMenu.java" bugCount="0" size="100"/>
+    <FileStats path="controller/MainMenu.java" bugCount="0" size="60"/>
+    <FileStats path="controller/MemberMenu.java" bugCount="0" size="88"/>
+    <FileStats path="model/domain/Contract.java" bugCount="0" size="42"/>
+    <FileStats path="model/domain/ContractManager.java" bugCount="0" size="69"/>
+    <FileStats path="model/domain/Game.java" bugCount="0" size="13"/>
+    <FileStats path="model/domain/Item.java" bugCount="0" size="40"/>
+    <FileStats path="model/domain/ItemManager.java" bugCount="0" size="28"/>
+    <FileStats path="model/domain/LoanedObserver.java" bugCount="0" size="2"/>
+    <FileStats path="model/domain/LoanedSubscriber.java" bugCount="0" size="2"/>
+    <FileStats path="model/domain/Member.java" bugCount="0" size="74"/>
+    <FileStats path="model/domain/MemberManager.java" bugCount="0" size="61"/>
+    <FileStats path="model/domain/NameSearchStrategy.java" bugCount="1" size="16" bugHash="a7103ec3120495689ce12508a6852fa3"/>
+    <FileStats path="model/domain/Other.java" bugCount="0" size="13"/>
+    <FileStats path="model/domain/PriceSearchStrategy.java" bugCount="1" size="16" bugHash="a85eaca1229a4443ba493b9e0dec837f"/>
+    <FileStats path="model/domain/SearchStrategy.java" bugCount="0" size="2"/>
+    <FileStats path="model/domain/Sport.java" bugCount="0" size="13"/>
+    <FileStats path="model/domain/Time.java" bugCount="0" size="18"/>
+    <FileStats path="model/domain/Tools.java" bugCount="0" size="13"/>
+    <FileStats path="model/domain/Toy.java" bugCount="0" size="13"/>
+    <FileStats path="model/domain/Vehicle.java" bugCount="0" size="13"/>
+    <FileStats path="model/persistence/FileManager.java" bugCount="0" size="32"/>
+    <FileStats path="view/ContractChoices.java" bugCount="0" size="50"/>
+    <FileStats path="view/ItemChoices.java" bugCount="0" size="116"/>
+    <FileStats path="view/MemberChoices.java" bugCount="0" size="75"/>
+    <FileStats path="view/MenuChoices.java" bugCount="0" size="113"/>
+    <PackageStats package="controller" total_bugs="0" total_types="7" total_size="265">
+      <ClassStats class="controller.App" sourceFile="App.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="controller.ItemMenu" sourceFile="ItemMenu.java" interface="false" size="94" bugs="0"/>
+      <ClassStats class="controller.ItemMenu$1" sourceFile="ItemMenu.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="controller.MainMenu" sourceFile="MainMenu.java" interface="false" size="56" bugs="0"/>
+      <ClassStats class="controller.MainMenu$1" sourceFile="MainMenu.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="controller.MemberMenu" sourceFile="MemberMenu.java" interface="false" size="82" bugs="0"/>
+      <ClassStats class="controller.MemberMenu$1" sourceFile="MemberMenu.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="model.domain" total_bugs="2" total_types="18" total_size="448" priority_2="2">
+      <ClassStats class="model.domain.Contract" sourceFile="Contract.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="model.domain.ContractManager" sourceFile="ContractManager.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="model.domain.Game" sourceFile="Game.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="model.domain.Item" sourceFile="Item.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="model.domain.ItemManager" sourceFile="ItemManager.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="model.domain.LoanedObserver" sourceFile="LoanedObserver.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="model.domain.LoanedSubscriber" sourceFile="LoanedSubscriber.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="model.domain.Member" sourceFile="Member.java" interface="false" size="74" bugs="0"/>
+      <ClassStats class="model.domain.MemberManager" sourceFile="MemberManager.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="model.domain.NameSearchStrategy" sourceFile="NameSearchStrategy.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="model.domain.Other" sourceFile="Other.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="model.domain.PriceSearchStrategy" sourceFile="PriceSearchStrategy.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="model.domain.SearchStrategy" sourceFile="SearchStrategy.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="model.domain.Sport" sourceFile="Sport.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="model.domain.Time" sourceFile="Time.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="model.domain.Tools" sourceFile="Tools.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="model.domain.Toy" sourceFile="Toy.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="model.domain.Vehicle" sourceFile="Vehicle.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="model.persistence" total_bugs="0" total_types="1" total_size="32">
+      <ClassStats class="model.persistence.FileManager" sourceFile="FileManager.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="view" total_bugs="0" total_types="9" total_size="354">
+      <ClassStats class="view.ContractChoices" sourceFile="ContractChoices.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="view.ItemChoices" sourceFile="ItemChoices.java" interface="false" size="94" bugs="0"/>
+      <ClassStats class="view.ItemChoices$ItemChoiceEvent" sourceFile="ItemChoices.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="view.MemberChoices" sourceFile="MemberChoices.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="view.MemberChoices$MemberModifyEvent" sourceFile="MemberChoices.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="view.MenuChoices" sourceFile="MenuChoices.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="view.MenuChoices$ItemMenuEvent" sourceFile="MenuChoices.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="view.MenuChoices$MainMenuEvent" sourceFile="MenuChoices.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="view.MenuChoices$MemberMenuEvent" sourceFile="MenuChoices.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="491" invocations="633" avgMicrosecondsPerInvocation="777" maxMicrosecondsPerInvocation="57585" standardDeviationMicrosecondsPerInvocation="3529"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="370" invocations="79" avgMicrosecondsPerInvocation="4686" maxMicrosecondsPerInvocation="356349" standardDeviationMicrosecondsPerInvocation="39820"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="197" invocations="79" avgMicrosecondsPerInvocation="2496" maxMicrosecondsPerInvocation="121262" standardDeviationMicrosecondsPerInvocation="13607"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="122" invocations="79" avgMicrosecondsPerInvocation="1553" maxMicrosecondsPerInvocation="35293" standardDeviationMicrosecondsPerInvocation="4526"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="110" invocations="117" avgMicrosecondsPerInvocation="940" maxMicrosecondsPerInvocation="33004" standardDeviationMicrosecondsPerInvocation="4375"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="99" invocations="386" avgMicrosecondsPerInvocation="258" maxMicrosecondsPerInvocation="15719" standardDeviationMicrosecondsPerInvocation="1033"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="78" invocations="592" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="15909" standardDeviationMicrosecondsPerInvocation="915"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="73" invocations="638" avgMicrosecondsPerInvocation="115" maxMicrosecondsPerInvocation="14452" standardDeviationMicrosecondsPerInvocation="610"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="65" invocations="178" avgMicrosecondsPerInvocation="369" maxMicrosecondsPerInvocation="3964" standardDeviationMicrosecondsPerInvocation="552"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="60" invocations="181" avgMicrosecondsPerInvocation="334" maxMicrosecondsPerInvocation="36685" standardDeviationMicrosecondsPerInvocation="2868"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="60" invocations="176" avgMicrosecondsPerInvocation="342" maxMicrosecondsPerInvocation="6541" standardDeviationMicrosecondsPerInvocation="656"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="58" invocations="178" avgMicrosecondsPerInvocation="330" maxMicrosecondsPerInvocation="7877" standardDeviationMicrosecondsPerInvocation="724"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="57" invocations="178" avgMicrosecondsPerInvocation="325" maxMicrosecondsPerInvocation="4730" standardDeviationMicrosecondsPerInvocation="582"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="57" invocations="79" avgMicrosecondsPerInvocation="733" maxMicrosecondsPerInvocation="39085" standardDeviationMicrosecondsPerInvocation="4400"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="57" invocations="178" avgMicrosecondsPerInvocation="323" maxMicrosecondsPerInvocation="7863" standardDeviationMicrosecondsPerInvocation="691"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="47" invocations="178" avgMicrosecondsPerInvocation="269" maxMicrosecondsPerInvocation="8140" standardDeviationMicrosecondsPerInvocation="853"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="41" invocations="79" avgMicrosecondsPerInvocation="527" maxMicrosecondsPerInvocation="11511" standardDeviationMicrosecondsPerInvocation="1696"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="40" invocations="135" avgMicrosecondsPerInvocation="300" maxMicrosecondsPerInvocation="3587" standardDeviationMicrosecondsPerInvocation="482"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

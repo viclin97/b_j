@@ -1,0 +1,74 @@
+e0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/controller/App.java
+j0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/controller/ItemMenu.java
+j0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/controller/MainMenu.java
+l0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/controller/MemberMenu.java
+l0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Contract.java
+s0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/ContractManager.java
+h0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Game.java
+h0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Item.java
+o0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/ItemManager.java
+r0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/LoanedObserver.java
+t0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/LoanedSubscriber.java
+j0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Member.java
+q0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/MemberManager.java
+v0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/NameSearchStrategy.java
+i0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Other.java
+w0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/PriceSearchStrategy.java
+r0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/SearchStrategy.java
+i0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Sport.java
+h0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Time.java
+i0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Tools.java
+g0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Toy.java
+k0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/domain/Vehicle.java
+t0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/model/persistence/FileManager.java
+k0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/view/ContractChoices.java
+g0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/view/ItemChoices.java
+i0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/view/MemberChoices.java
+g0 CheckStyle Issues in C:/Users/lindg/visual studio/1dv607/a2/app/src/main/java/view/MenuChoices.java
+-0 FindBugs Issues in model/domain/Item.java
+40 FindBugs Issues in model/domain/ItemManager.java
+,0 FindBugs Issues in view/ItemChoices.java
+.0 FindBugs Issues in model/domain/Tools.java
+90 FindBugs Issues in model/persistence/FileManager.java
+70 FindBugs Issues in model/domain/LoanedObserver.java
+,0 FindBugs Issues in view/MenuChoices.java
+;1 FindBugs Issues in model/domain/NameSearchStrategy.java
+text:lines: 9-31 
+MgetNameList(MemberManager) may expose internal representation by returning 
+&  NameSearchStrategy.searchNameList 
+NMay expose internal representation by returning reference to mutable object 
+cReturning a reference to a mutable object value stored in one of the object's fields exposes the 
+f  internal representation of the object. If instances are accessed by untrusted code, and unchecked 
+d  changes to the mutable object would compromise security or other important properties, you will 
+b  need to do something different. Returning a new copy of the object is better approach in many 
+  situations.
+
+70 FindBugs Issues in model/domain/SearchStrategy.java
+.0 FindBugs Issues in model/domain/Sport.java
+00 FindBugs Issues in view/ContractChoices.java
+*0 FindBugs Issues in controller/App.java
+10 FindBugs Issues in controller/MemberMenu.java
+10 FindBugs Issues in model/domain/Contract.java
+/0 FindBugs Issues in controller/MainMenu.java
+<1 FindBugs Issues in model/domain/PriceSearchStrategy.java
+text:lines: 9-32 
+NgetPriceList(MemberManager) may expose internal representation by returning 
+#  PriceSearchStrategy.itemPrices 
+NMay expose internal representation by returning reference to mutable object 
+cReturning a reference to a mutable object value stored in one of the object's fields exposes the 
+f  internal representation of the object. If instances are accessed by untrusted code, and unchecked 
+d  changes to the mutable object would compromise security or other important properties, you will 
+b  need to do something different. Returning a new copy of the object is better approach in many 
+  situations.
+
+.0 FindBugs Issues in model/domain/Other.java
+60 FindBugs Issues in model/domain/MemberManager.java
+90 FindBugs Issues in model/domain/LoanedSubscriber.java
+80 FindBugs Issues in model/domain/ContractManager.java
+/0 FindBugs Issues in model/domain/Member.java
+-0 FindBugs Issues in model/domain/Time.java
+/0 FindBugs Issues in controller/ItemMenu.java
+-0 FindBugs Issues in model/domain/Game.java
+,0 FindBugs Issues in model/domain/Toy.java
+00 FindBugs Issues in model/domain/Vehicle.java
+.0 FindBugs Issues in view/MemberChoices.java
